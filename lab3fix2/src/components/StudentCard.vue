@@ -1,14 +1,14 @@
 <template>
-  <div class="event-card">
-    <span>@{{ event.time }} on {{ event.date }}</span>
-    <h4>{{ event.title }}</h4>
-    {{ event.id }}
+  <div class="student-card">
+    {{ event.name }}
+    {{ event.surname }}
+    {{ event.gpa }}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'EventCard',
+  name: 'StudentCard',
   props: {
     event: {
       type: Object,

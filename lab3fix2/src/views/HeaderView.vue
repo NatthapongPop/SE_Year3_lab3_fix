@@ -20,7 +20,7 @@ h4 {
 //import EventCard from '@/components/EventCard.vue'
 import HeaderCard from '@/components/HeaderCard.vue'
 export default {
-  name: 'EventListView',
+  name: 'HeaderView',
   components: {
     // EventCard,
     HeaderCard
