@@ -1,4 +1,6 @@
 <template>
+  <h1>Events For Good</h1>
+  <!--new element-->
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
     <HeaderCard v-for="event in events" :key="event.id" :event="event" />
@@ -21,7 +23,7 @@ h4 {
 import EventCard from '@/components/EventCard.vue'
 import HeaderCard from '@/components/HeaderCard.vue'
 export default {
-  name: 'HomeView',
+  name: 'EventListView',
   components: {
     EventCard,
     HeaderCard
