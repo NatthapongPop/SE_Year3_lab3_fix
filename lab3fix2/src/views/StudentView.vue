@@ -23,7 +23,7 @@ export default {
     // EventCard,
     StudentCard
   },
-  create() {
+  created() {
     StudentService.getEvents()
       .then((response) => {
         this.events = response.data
